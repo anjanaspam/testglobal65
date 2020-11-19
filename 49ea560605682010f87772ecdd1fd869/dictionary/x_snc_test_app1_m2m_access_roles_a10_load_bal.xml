@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test App1 M2m Access Roles A10 Load Bal" max_length="40" name="x_snc_test_app1_m2m_access_roles_a10_load_bal" type="collection">
+        <element attributes="encode_utf8=false" label="Access Roles" max_length="32" name="access_roles" reference="sys_security_acl_role" type="reference"/>
+        <element attributes="encode_utf8=false" label="A10 Load Balancer" max_length="32" name="a10_load_balancer" reference="cmdb_ci_lb_a10" type="reference"/>
+        <index name="index">
+            <element name="access_roles"/>
+        </index>
+        <index name="index2">
+            <element name="a10_load_balancer"/>
+        </index>
+    </element>
+</database>

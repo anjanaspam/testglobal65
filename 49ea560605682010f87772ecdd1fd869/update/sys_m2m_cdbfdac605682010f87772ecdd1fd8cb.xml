@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>cmdb_ci_lb_a10</from_table>
+        <m2m_from_field>a10_load_balancer</m2m_from_field>
+        <m2m_from_label>Access Roles</m2m_from_label>
+        <m2m_table>x_snc_test_app1_m2m_access_roles_a10_load_bal</m2m_table>
+        <m2m_to_field>access_roles</m2m_to_field>
+        <m2m_to_label>A10 Load Balancers</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-19 16:38:28</sys_created_on>
+        <sys_id>cdbfdac605682010f87772ecdd1fd8cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_test_app1_m2m_access_roles_a10_load_bal</sys_name>
+        <sys_package display_value="test_app1" source="x_snc_test_app1">49ea560605682010f87772ecdd1fd869</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="test_app1">49ea560605682010f87772ecdd1fd869</sys_scope>
+        <sys_update_name>sys_m2m_cdbfdac605682010f87772ecdd1fd8cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-19 16:38:28</sys_updated_on>
+        <to_table>sys_security_acl_role</to_table>
+    </sys_m2m>
+</record_update>
